@@ -140,7 +140,7 @@ function buttonClickEnd() {
 }
 
 // 問題数
-let count_size = 1
+let count_size = 10
 
 function buttonClickDecision() {
     if (parseInt(user_input) === answer) {
@@ -251,7 +251,3 @@ document.body.addEventListener('keydown',
         }
         
     });
-
-// リンク削除
-const links = document.querySelectorAll('a');
-links.forEach(link => link.remove());
