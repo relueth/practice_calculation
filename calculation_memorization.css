@@ -1,0 +1,13 @@
+button {
+    color: #fff;
+    background-color: #eb6100;
+    width: 50px;  /* 任意の幅 */
+    height: 50px;  /* 任意の高さ */
+    font-size: 30px;
+}
+
+.center-element {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+}
